@@ -2,18 +2,11 @@ package main
 
 import (
 	"fmt"
-	"git/variables"
+	"git/ejercicios"
 )
 
 func main() {
-	fmt.Println(variables.Status)
-	variables.ShowInt()
-	fmt.Println("end")
-	variables.ShowAny()
-
-	fmt.Println(variables.Status)
-	status, text := variables.ConvertToString(122)
-	fmt.Println(status)
+	number, text := ejercicios.Exec1("1sdsds28")
+	fmt.Println(number)
 	fmt.Println(text)
-
 }
