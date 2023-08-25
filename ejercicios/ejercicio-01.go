@@ -1,15 +1,13 @@
 package ejercicios
 
 import (
-	"fmt"
 	"strconv"
 )
 
 func Exec1(str string) (int, string) {
 	Number, err := strconv.Atoi(str)
 	if err != nil {
-		fmt.Println(err)
-		fmt.Println("ocurrio un error")
+		return Number, "Ocurrio un error " + err.Error()
 
 	}
 	var Text string
