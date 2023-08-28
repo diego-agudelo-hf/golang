@@ -1,7 +1,8 @@
 package main
 
 import (
-	"git/ejercicios"
+	"fmt"
+	"git/files"
 )
 
 // "fmt"
@@ -13,5 +14,10 @@ func main() {
 	// fmt.Println(text)
 	// teclado.Invoke()
 	// iteraciones.Invoke()
-	ejercicios.Invoke()
+	// fmt.Println(files.Invoke())
+	// files.Invoke()
+	// files.Addstring()
+	files.ReadFIle()
+	fmt.Println("-----------------------")
+	files.ReadFIleOs()
 }

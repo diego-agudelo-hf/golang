@@ -9,8 +9,9 @@ import (
 
 var number int
 var err error
+var conten string
 
-func Invoke() {
+func Invoke() string {
 
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -24,8 +25,12 @@ func Invoke() {
 		}
 	}
 
-	for i := 0; i <= 10; i++ {
-		fmt.Println(number, "X", i, "=", number*i)
+	for i := 1; i <= 10; i++ {
+
+		conten += fmt.Sprintf("%d x %d =%d -", number, i, number*i)
+
 	}
+
+	return conten
 
 }
