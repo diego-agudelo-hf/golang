@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"git/files"
-)
+import "git/funciones"
 
 // "fmt"
 // "git/ejercicios"
@@ -17,7 +14,9 @@ func main() {
 	// fmt.Println(files.Invoke())
 	// files.Invoke()
 	// files.Addstring()
-	files.ReadFIle()
-	fmt.Println("-----------------------")
-	files.ReadFIleOs()
+	// files.ReadFIle()
+	// fmt.Println("-----------------------")
+	// files.ReadFIleOs()
+	// funciones.Calculate()
+	funciones.Invoke()
 }
