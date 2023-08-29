@@ -1,6 +1,8 @@
 package main
 
-import "git/funciones"
+import (
+	"git/webserver"
+)
 
 // "fmt"
 // "git/ejercicios"
@@ -18,5 +20,19 @@ func main() {
 	// fmt.Println("-----------------------")
 	// files.ReadFIleOs()
 	// funciones.Calculate()
-	funciones.Invoke()
+	// funciones.Invoke()
+	// arrays.Invoke()
+	// arrays.Invoke_s()
+	// arrays.Capacity()
+	// // maps.Invoke()
+	// // users.SaveUser()
+	// juan := new(models.Man)
+	// ie.ManRepirando(juan)
+
+	// juana := new(models.Woman)
+	// // ie.ManRepirando(juana)
+	// chanel1 := make(chan bool)
+	// go goroutines.Minombrelento("Diego Agudelo", chanel1)
+	// <-chanel1
+	webserver.Miwebserver()
 }
